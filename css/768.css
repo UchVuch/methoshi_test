@@ -35,6 +35,11 @@
 }
 
 @media (max-width:899px)  {
+
+	.comics_page h2 {
+		font-size: 44px;
+		margin-top: 110px;
+	}
 	
 	.redpanda1:before {right:-250px;}
 .redpanda2 .img{left: -30px;}
@@ -105,6 +110,10 @@ h3 {font-size: 48px;line-height: 57px;}
 
 
 @media (max-width:800px)  {
+
+	.screen1 .smallsocial {
+		padding-right: 30px;
+	}
 	
 .farm .farmstats .item{width: calc(50% - 24px); margin: 0 12px 32px 12px; }
 
@@ -148,6 +157,8 @@ body:not(.mintpage) #logo img.big {width: 90vw; height: calc(90vw*0.16);left: ca
 
 .firstwinners .item .txt {padding: 10px 12px 12px 12px} 
 .firstwinners .item .ttl {margin-bottom: 12px}
+
+
 
 }
 

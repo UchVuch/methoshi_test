@@ -48,6 +48,10 @@
 
 
 @media (max-width:599px)  {
+
+	.screen1 .smallsocial {
+		padding-right: 0;
+	}
 	
 .secondwinners {display: block;}
 .secondwinners .item {width: auto !important; margin-left: 0; margin-right: 0;}
@@ -57,7 +61,7 @@
 	
 .mintpage .mintwrap {width:calc(100vw - 48px) ; max-width: 470px;}
 	
-	#topmenu > div > ul {margin-top: 70px;}
+	/* #topmenu > div > ul {margin-top: 70px;} */
 #footer {padding-bottom: 40px;}
 	.botmenu ul li {font-size: 12px; line-height: 130%; margin-bottom: 12px; }
 .welcomepics > div img {display: block;height:auto; margin: 7px;}
@@ -341,6 +345,11 @@ line-height: 130%; margin-bottom: 40px }
 
 
 
+}
+@media (max-height:365px)  {
+	#logo img {
+		width: 95px;
+	}
 }
 @media (max-height:340px)  {
 	#topmenu ul li {font-size:16px; padding:  7px 0 !important}
