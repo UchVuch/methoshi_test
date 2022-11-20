@@ -124,6 +124,7 @@ button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="but
 
 
 #topmenu {position: absolute; z-index: 50; width: 100%; display: flex; left: 0; justify-content: center}
+.topmenuscroll{margin-right: -80px;}
 #topmenu ul {display:flex;font-size:15px;line-height:130%;}
 #topmenu > div > ul > li {padding:0 18px; position:relative; background:none; margin-bottom: 0; padding-bottom: 5px; margin-bottom: -5px; }
 #topmenu ul li a {text-decoration:none; cursor:pointer; transition-duration: .2s}

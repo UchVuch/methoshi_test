@@ -60,7 +60,8 @@ body:not(.mintpage) #logo img.big {margin-left: -83px /* burger place and margin
     h1 .bg{margin-right: 0;}
     
     #topmenu { position: fixed; top:0; left: 0; display: none; justify-content: space-around; align-items: center; width: 100%;background: #2A1752 url(../i/topmenu.jpg) 50% 50% no-repeat; background-size: 100% 100%; height: 100%;height: -moz-available;  height: -webkit-fill-available; height: fill-available;}
-#topmenu.opened {display: flex}
+#topmenu.opened {display: flex; overflow-y: auto;}
+.topmenuscroll{margin-right: 0;}
 
 
 #topmenu ul  li.parent > a {position: relative; padding-right: 32px;} 
