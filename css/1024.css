@@ -106,8 +106,8 @@ body:not(.mintpage) #logo img.big {margin-left: -83px /* burger place and margin
 }
 
 @media (max-width:1100px)  {
-	#welcome {
-		padding-bottom: 100%;
+	.comicspage  #welcome {
+		padding-bottom: 25%;
 	}
 	.finance_list_wrap  {margin-left: 24px; margin-right: 24px;}
 	.goback {bottom: -134px}
