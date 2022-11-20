@@ -1,0 +1,42 @@
+
+body.start {overflow: hidden;transition-duration: .5s}
+
+.section:not(#welcome), .productslist_wrap {visibility: hidden;}
+.section#welcome {visibility: visible;}
+
+#welcome .afttl, #welcome .btn_wrap, #scrolldown, #welcome h1, #topmenu, #top_btn,.welcome_bot_r_bg, .welcome_top_left_bg, #burger, #welcome .smallsocial  {opacity: 0;}
+.welcomepics img, .welcomepics a,.welcomepics .circle {transform: scale(0.01);opacity: 0;}
+.welcomepics .welc_panda4 .circle {opacity: 0 !important}
+
+#topmenu.reveal, #top_btn.reveal, #welcome .afttl.reveal, #welcome .btn_wrap.reveal, #scrolldown.reveal, #welcome h1.reveal, .welcome_bot_r_bg.reveal, .welcome_top_left_bg.reveal, #burger.reveal, #welcome .smallsocial.reveal {opacity: 1; transition-duration: .7s}
+
+.welcome_top_left_bg {margin-left: -200px; margin-top: 200px;}
+.welcome_bot_r_bg {margin-left: 200px; margin-top: 200px;}
+.welcome_bot_r_bg.move, .welcome_top_left_bg.move {margin-left: 0; margin-top: 0;}
+
+.welcomepics span {transform: scale(0.01); }
+.welcomepics span.reveal {transform: scale(1);  transition-duration: .6s}
+
+.welcomepics img.reveal, .welcomepics a.reveal {transform: scale(1); transition-duration: .6s; opacity: 1}
+.welcomepics .circle.reveal{transform: scale(1); transition-duration: .6s; opacity: .1}
+#logo img.big {width:745px; margin-left: -32px; margin-top: -32px; height: 121px; left: calc(50vw - 745px/2); top:calc(50vh - 120px/2); }
+#logo img.flow {transform: scale(30); opacity: 0; }
+.welcomepics .welc_panda4 .circle.reveal {opacity: 1 !important}
+
+
+
+.welcomepics .circle { animation:circle1 8s ease-in-out infinite;}
+
+.welcomepics .welc_panda1 .circle  {animation-delay: 1s}
+.welcomepics .welc_panda2 .circle  {animation-delay: 2.5s}
+.welcomepics .welc_panda3 .circle  {animation-delay: 4s}
+.welcomepics .welc_panda4 .circle  {animation-delay: 5.5s; animation:none}
+.welcomepics .welc_panda5 .circle  {animation-delay: 7s}
+
+@keyframes circle1{
+  0% {opacity:0.1;}
+  40% {opacity:0.1;}
+  50% {opacity:.8;}
+  60% {opacity:0.1;}
+  100% {opacity:0.1;}
+}
