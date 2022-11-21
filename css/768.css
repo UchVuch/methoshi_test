@@ -182,6 +182,12 @@ body:not(.mintpage) #logo img.big {width: 90vw; height: calc(90vw*0.16);left: ca
 	}
 }
 
+@media (max-width: 420px) and (min-height: 800px){
+	.screen1 {
+		min-height: 700px;
+	}
+}
+
 
 @media (min-width: 992px) and (min-height: 620px) {
 	.productslist {
