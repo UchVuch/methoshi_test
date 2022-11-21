@@ -201,11 +201,14 @@ body:not(.mintpage) #logo img.big {width: 90vw; height: calc(90vw*0.16);left: ca
 }
 
 
-
-
-
-
-
-
+@media (min-width: 900px) and (max-width: 992px) {
+	.welc_panda1 {
+		left: calc(40% - 343px);
+		top: 53px;
+	}
+	.welc_panda2 {
+		left:calc(60% + 170px); top:35px;
+	}
+}
 
 
