@@ -188,6 +188,11 @@ body:not(.mintpage) #logo img.big {width: 90vw; height: calc(90vw*0.16);left: ca
 		padding-top: 140px;
 	}
 }
+@media (min-width: 1400px) and (min-height: 800px) {
+	.screen1 {
+		height: 800px;
+	}
+}
 
 
 
