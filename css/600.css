@@ -346,9 +346,13 @@ line-height: 130%; margin-bottom: 40px }
 
 
 }
-@media (max-height:365px)  {
+@media (max-width:365px)  {
 	#logo img {
 		width: 95px;
+	}
+	.comics_page h2 {
+		font-size: 30px;
+		margin-top: 85px;
 	}
 }
 @media (max-height:340px)  {
