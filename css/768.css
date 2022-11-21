@@ -164,10 +164,30 @@ body:not(.mintpage) #logo img.big {width: 90vw; height: calc(90vw*0.16);left: ca
 
 
 
+@media (max-height: 720px) {
+	.screen1 {
+		min-height: calc(110vh - 80px);
+	}
+}
+
+@media (max-height: 600px) {
+	.screen1 {
+		min-height: calc(110vh + 50px);
+	}
+}
+
+@media (min-height: 720px) {
+	.screen1 {
+		min-height: 800px;
+	}
+}
 
 
-
-
+@media (min-width: 992px) and (min-height: 620px) {
+	.productslist {
+		padding-top: 140px;
+	}
+}
 
 
 

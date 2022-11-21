@@ -105,6 +105,9 @@ body:not(.mintpage) #logo img.big {margin-left: -83px /* burger place and margin
 .farm .farmstats .item{width: calc(33.33% - 32px);}
 }
 
+
+
+
 @media (max-width:1100px)  {
 	.comicspage  #welcome {
 		padding-bottom: 25%;
